@@ -1,0 +1,111 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--bg-header-main-color);
+}
+
+.banner{
+    width: 75%;
+    height: 600px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-title, .banner-paragraph, .banner-legend-title, .banner-legend-paragraph{
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--txt-default-white-color);
+    align-self: baseline;
+}
+
+.banner-paragraph{
+    font-size: 22px;
+    color: var(--txt-color);
+    margin-top: 20px;
+    align-self: baseline;
+}
+
+.banner-image{
+    width: 100%;
+    margin-top: 24px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+    box-shadow: #000000 0 0 30px;
+}
+
+.banner-legend{
+    width: 600px;
+    color: var(--txt-default-white-color);
+    position: absolute;
+    align-self: flex-start;
+    margin: 380px 0 39px 47px;
+    cursor: pointer;
+}
+
+.banner-legend-title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: ease-in-out 300ms;
+}
+
+.banner-legend-paragraph{
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.posts{
+    width: 75%;
+    height: 380px;
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posts-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--txt-default-white-color);
+    align-self: baseline;
+}
+
+.covers{
+    width: 100%;
+    height: 300px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--txt-default-white-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.cover{
+    -webkit-mask-image: linear-gradient(to top, transparent 1%, black 100%);
+}
+
+.cover-title{
+    font-weight: bold;
+    margin-top: 20px;
+    width: 120px;
+    line-height: 1.3em;
+}

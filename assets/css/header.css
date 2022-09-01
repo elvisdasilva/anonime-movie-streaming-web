@@ -1,0 +1,76 @@
+.header{
+    width: 100%;
+    height: 10vh;
+    background: var(--bg-header-main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    width: 90%;
+    padding: 20px;
+    background: var(--bg-header-main-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo, .item{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--txt-default-white-color);
+    
+}
+
+.logo h1:hover{
+    text-shadow: #000000 0 0 15px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.menu-nav{
+    margin-right: 500px;
+}
+
+.item{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.item a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: var(--txt-color);
+    transition: ease-in-out 300ms;
+}
+
+.item a:hover{
+    color: var(--txt-default-white-color);
+}
+
+.search{
+    background: var(--search-bg-color);
+    width: 350px;
+    height: 45px;
+    border: none;
+    border-radius: 37px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 18px;
+    padding-left: 25px;
+    ;
+}
+
+.search:focus::-webkit-input-placeholder {
+    color: transparent;
+    transition: ease-in-out 500ms
+ }
