@@ -47,7 +47,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🚧 Projeto
 
-Live Preview: [Visualizar o projeto no navegador](https://music-site-page.vercel.app/)
+Live Preview: [Visualizar o projeto no navegador](https://anonime-movie-streaming-web.vercel.app/)
 
 ## 🎨 Layout:
 
